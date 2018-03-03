@@ -1,48 +1,92 @@
 <!doctype html>
 <html>
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Meghan's Website</title>
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Nanum+Pen+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>Meet Meghan</h1>
-
     <div>
-        <nav>
-            <ul>
-                <li><a class="btn" href="index.html">Home</a></li>
-                <li><a class="btn" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div>
-        <img id="selfie" src="assets/img/linkedIn.png"><br>
-    </div><br>
-    <div><h2>About Me</h2>
-       <div>
-        <h3>Fun facts:</h3>
-            <ul>
-                <li>I love Algebra</li>
-                <li>I think coding is awesome</li>
-                <li>I'd like to build up my portfolio so that I can have something to show off here</li>
-                <li>I am a former division 1 basketball player</li>
-                <li>I lived in Ireland for a year and would like to go back for a while</li>
-        </ul>
+        <div class="linked">
+            <a href="https://www.linkedin.com/in/meghanmcguinness1/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:50px"></i></a>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 
-    <div> <a href=" https://www.linkedin.com/in/meghanmcguinness1/ ">Connect with me on LinkedIn!</a><br>
-    </div>
-    /*--<div>
-        <h2>Education</h2>
-        <img src="assets/img/niagara.jpeg ">-<img src="assets/img/trinity.jpeg "> 
-    </div>--*/
+    <div id="hero">
+        <div class="picture">
+            <header>
+                <h1>meghan mcguinness</h1>
+            </header>
+            <img src="assets/img/linkedIn.png" width=20% height=20%><br><br>
+            <a class="herobtn" href="contact.html">Let's Chat!</a>
+        </div>
+    </div><br><br><br><br>
+
     <div>
-        <h2>Experience</h2>
-        <img src="assets/img/scl.jpeg ">
-        <img src="assets/img/fd.png ">
+        <div class="icons">
+            <div class="icon1">
+                <i class="fa fa-graduation-cap" style="font-size:36px"></i>
+                <h2 class="header2"><a href="#para1">Education</a></h2>
+            </div>
+            <div class="icon2">
+                <i class="fa fa-trophy" style="font-size:36px"></i>
+                <h2 class="header2"><a href="#para2">Leadership Experience</a></h2>
+            </div>
+            <div class="icon3">
+                <i class="fa fa-suitcase" style="font-size:36px"></i>
+                <h2 class="header2"><a href="#para3">Business Experience</a></h2>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="tilt">
+        <div class="body" id="b1">
+            <h3 id="para1">Education</h3>
+            <img class="bodyimg" src="assets/img/niagara.jpeg">
+            <p>Bachelor of Science in Mathematics from Niagara University in Lewiston, New York.</p>
+            <img class="bodyimg" src="assets/img/trinity.jpeg">
+            <p>Master of Science in Business Management from Trinity College Dublin in Dublin, Ireland.</p>
+        </div>
+        <br><br>
+        <div class="body" id="b2">
+            <h3 id="para2">Leadership Experience</h3>
+            <a href="https://www.sportchangeslife.com/" target="_blank"><img class="bodyimg" src="assets/img/scl.jpeg"></a>
+            <p>While playing Division 1 basketball in college, I was the captain of my team for two years. This leadership position included the responsibility to communicate team goals to the coaching staff, while motivating and empowering my fellow teammates to succeed.</p>
+            <p>Post-college, I spent a year as an embassador for a non-profit organization called Sport Changes Life. With this program, I spent a year living in Ireland. The goal was to coach and mentor underprivledged children throughout the country, while emphasizing and promoting the value of sports as a means to change lives. During this year, I also played basketball at the highest level in Ireland and studied to receive my masters. Being a role model to children while having to manage my time to fulfill my responsibilities allowed me to grow as both a leader and a person.</p>
+        </div>
+        <br><br>
+        <div class="body" id="b3">
+            <h3 id="para3">Business Experience</h3>
+            <a href="https://www.firstderivatives.com" target="_blank">
+                <img class="bodyimg" src="assets/img/fd.png"></a>
+            <p>I have been working as a consultant for First Derivatives PLC for the past 1.5 years. Currently, I am working on a project at Morgan Stanley as a Business Analyst. The goal of this project is to develop two new applications to automate business processes around certain regulatory report filings. My everyday duties include:</p>
+            <ul>
+                <li>Meeting with the client to understand business processes and current problems</li>
+                <li>Gathering requirements for the development of applications</li>
+                <li>Communicating the business users' requests to the development team</li>
+                <li>Organizing and prioritizing user requests</li>
+                <li>Training users on new applications</li>
+                <li>Working with other project teams to prioritize tasks and work towards a common goal</li>
+            </ul>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="picture">
+        <h4>Do you have opportunities within the Tech industry?</h4><br>
+        <a class="herobtn" href="contact.html">Let's Chat!</a>
     </div>
 </body>
 

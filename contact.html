@@ -1,33 +1,51 @@
 <!doctype html>
 <html>
-    <head>
-        <body>
-            <div>
-                <header><h1 style="text-align:center" style="color:aqua">Contact</h1>
-                </header>
-            </div>
-                        <nav>
-                <li><a href="index.html">Home</a></li>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meghan's Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Nanum+Pen+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="linked">
+            <a href="https://www.linkedin.com/in/meghanmcguinness1/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:50px"></i></a>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
-        <form>
-            <div>
-            <label>Name
-            <input type="text" name=nameame><br>
-                </label>
-            <label>Email
-            <input type="text" name=email placeholder=johndoe@gmail.com> <br>
-                </label>
-            <label>Phone Number
-            <input type="text" name=phone>           
-                </label><br>
-            </div>
-            <div>
-            <label>Message:
-            <textarea name="message"></textarea>
-                </label>
-            </div>
-            <input type="submit" name="submit" value="Contact Me"
-                </form>
-        </body>
-    </head>
+        </div>
+    </div>
+
+    <div class="picture">
+        <header>
+            <h1>contact me</h1>
+        </header>
+    </div><br><br><br>
+
+    <form>
+        <div class="bodyfrm">
+            <h2>Name:</h2>
+            <input class="input" type="text" name="name"><br><br>
+            <h2>Email:</h2>
+            <input class="input" type="text" name="email" placeholder="johndoe@gmail.com">
+            <br><br>
+            <h2>Phone:</h2>
+            <input class="input" type="text" name="phone" placeholder="xxx-xxx-xxxx">
+            <br><br>
+            <h2>Message:</h2>
+            <textarea name="message" style="width:90%; height:100px;"></textarea><br><br>
+            <input class="herobtn" type="submit" name="submit" value="Let's Chat!">
+        </div>
+    </form>
+</body>
+
+
 </html>
